@@ -4,14 +4,14 @@ import Image from 'next/image'
 export default function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container px-4 px-lg-5">
+      <div className="container px-0 px-lg-5">
         <Link className="navbar-brand" href="/">
-          <Image src="/logo.jpg" alt="Logo Uñas Sanas" width="150" />
+          <Image src="/logo.jpg" alt="Logo Uñas Sanas" width="150" height="45"/>
         </Link>
-        <Link href="https://api.whatsapp.com/send?phone=51959856064">
+        <Link href="https://wa.me/51959856064?text=Hola,%20quiero%20comprar" target="_blanck">
           <button type="button" className="btn btn-success">
-            Contactar 
-            <Image src="/WhatsApp.svg.webp" alt="WhatsApp Uñas Sanas" width="30" />
+            <Image src="/WhatsApp.svg.webp" alt="WhatsApp Uñas Sanas" width="30" height="30" />
+            +51 959856064
           </button>
         </Link>
         {/* <button
