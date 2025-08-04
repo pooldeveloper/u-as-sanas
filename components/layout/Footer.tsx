@@ -5,7 +5,7 @@ export default function Footer() {
                 <p className="m-0 text-center text-white">
                     Copyright © Uñas Sanas 2024 
                     <br />
-                    +51 959856064
+                    +51 978069398
                 </p>
             </div>
         </footer >
