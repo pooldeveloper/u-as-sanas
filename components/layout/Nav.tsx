@@ -8,10 +8,10 @@ export default function Nav() {
         <Link className="navbar-brand" href="/">
           <Image src="/logo.jpg" alt="Logo Uñas Sanas" width="150" height="45"/>
         </Link>
-        <Link href="https://wa.me/51959856064?text=Hola,%20quiero%20comprar" target="_blanck">
+        <Link href="https://wa.me/51950936743?text=Hola,%20quiero%20comprar" target="_blanck">
           <button type="button" className="btn btn-success">
             <Image src="/WhatsApp.svg.webp" alt="WhatsApp Uñas Sanas" width="30" height="30" />
-            +51 959856064
+            +51 950936743
           </button>
         </Link>
         {/* <button
